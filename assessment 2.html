@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="icon" type="webp" href="tick.webp"/>
+    <link rel="stylesheet" href="Style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <br/><br/>
+    <p id="title">Create task</p>
+    <div class="Input">
+      <input type="text" id="taskInput" placeholder="Enter task" required>
+        <input type="date" id="dueDateInput"> 
+        <select id="statusInput" required>             
+          <option value="To Do">To Do</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+        </select>
+        <button id="addBtn">Add Task</button>
+    </div>
+    <br/><br/>
+    <p id="title_task">My Tasks</p>
+    <div class="task_container">
+      <ul id="taskList"></ul>
+      
+    </div>
+    
+    <script src="assessment2.js"></script>
+  </body>
+</html>

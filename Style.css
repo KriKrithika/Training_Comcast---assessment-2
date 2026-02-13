@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(246, 213, 245);
+}
+.Input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:2px solid black; */
+    width: 700px;
+    padding: 10px;
+    margin-left: 30px;
+}
+#title {
+   margin: 0 0 15px 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(77, 9, 75);
+}
+input{
+  padding: 5px;
+  font-size: 18px;
+  
+}
+select{
+    padding: 5px;
+    font-size: 18px; 
+}
+#addBtn{
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(248, 221, 247);
+    background-color: rgb(77, 9, 75);
+    border:2px solid  rgb(248, 221, 247);
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+#addBtn:hover{
+    color: rgb(77, 9, 75);
+    background-color:rgb(230, 156, 228);
+    border:2px solid  rgb(77, 9, 75);
+    font-weight: bold;
+  }
+
+  
+/* Task Container */
+#title_task{
+  margin: 0 0 0 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(77, 9, 75);
+}
+.task_container{
+    display: flex;
+    margin-left:40px;
+    padding:10px;
+    /* border: 2px solid black; */
+    justify-content:flex-start;
+}
+
+
+/* list elements */
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  list-style: none;
+  padding: 5px;
+}
+
+li input[type="text"] {
+  width: 180px;
+}
+
+li select {
+  min-width: 120px;
+}
+
+.date {
+  margin-left: 5px;
+  font-size:18px;
+  color: rgb(77, 9, 75) ;
+}
+li button {
+  background-color: #e74c3c; 
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+li button:hover {
+  background-color: #c0392b;
+}
+
+li button:active {
+  transform: scale(0.95);
+}
